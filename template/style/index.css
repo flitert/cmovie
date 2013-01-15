@@ -1,0 +1,288 @@
+/* CSS Document */
+
+/* 公用部分 */
+html{
+	width:100%;
+	background:#FFF;}
+
+body {
+	width:100%;
+	font-size:14px;
+	color:#000;
+	font-family: "宋体";
+	background-image: url(../imgs/mbg.jpg);
+	background-repeat: repeat-x;
+	background-position: center 90px;
+	}
+
+img {border:0}
+
+h1 span {display:none}
+
+ul {list-style:none}
+
+ol {list-style:none;}
+
+* {
+	padding:0;
+	margin:0;}
+
+.right {float:right}
+
+.left {float:left;}
+
+.clear {clear:both}
+
+a{text-decoration:none;}
+.container{
+	margin:0 auto;
+	width:1000px;
+}
+.clear{
+	clear:both;
+}
+/* header */
+.hcontainer{
+	background-image: url(../imgs/n_head.png);
+	background-repeat: repeat-x;
+	width:100%;
+	height:100px;
+}
+#header{
+	height:100px;
+	overflow:hidden;
+	
+}
+#logo{
+	float:left;
+}
+#search_form{
+	float:left;
+}
+#nav{
+	width:1000px;
+	height:30px;
+	overflow:hidden;
+}
+#nav ul li{
+	float:left;
+	width:110px;
+}
+#navigation{
+	height:40px;
+	line-height:40px;
+	font-size:12px;
+}
+#navigation ul li{
+	float:left;
+	margin-right:10px;
+}
+/*------main--------*/
+#main{
+}
+#suoyin{
+	width:220px;
+	height:600px;
+	float:left;
+	border:1px solid #CCC;
+}
+#blocks{
+	width:775px;
+	float:left;
+}
+.one{
+	width:370px;
+	height:190px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+	display:inline;
+}
+.one ul li {
+	height:24px;
+	width:200px;
+	line-height:24px;
+	font-size:12px;
+	float:left;
+	line-height: 22px;
+	font-weight:normal;
+	border-bottom:1px dashed #CCC;
+}
+.imgpic{
+	height: 183px;
+	width: 133px;
+	float:left;
+	border:1px solid #A7A7A7;
+	margin-right:10px;
+}
+.imgpic img{
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	height: 170px;
+}
+.cag{
+	width:220px;
+	height:200px;
+}
+.cag ul li{
+	float:left;
+	width:47px;
+	height:25px;
+}
+.cag ul li a{
+	color: #C33;
+	float: left;
+	width: 42px;
+	height: 25px;
+	overflow: hidden;
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+.cag ul li .current{
+	color: #999;
+	float: left;
+	width: 42px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.cag h3{
+	height:40px;
+	line-height:40px;
+}
+
+#blocks .one ul .movie_title{
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:40px;
+	line-height:40px;
+}
+.movie_title a{
+	color:#900;
+}
+
+#pagination{
+	width:100%;
+	height:40px;
+	border:#666 1px solid;
+	float:left;
+}
+#pagination ul li {
+	height:25px;
+	width:25px;
+	float:left;
+	border:1px solid #CCC;
+	margin-right:5px;
+	text-align:center;
+	line-height:25px;
+}
+
+/*---index--*/
+#top{
+	height:450px;
+	border:1px solid #06C;
+	float:left;
+	width:400px;
+}
+#top ul{
+	float:left;
+}
+#top ul li{
+	float:left;
+	width:100%;
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	border-bottom:1px dashed #CCC;
+}
+#top a{
+	color: #D40000;
+}
+#top h2{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+}
+#flash{
+	float:left;
+	display:inline;
+	margin-left:10px;
+	height:450px;
+	width:500px;
+	border:1px solid #006;
+}
+#items{
+	width:700px;
+	float:left;
+	border:1px solid #999;
+}
+.last_list{
+	height:180px;
+	width:100%;
+	border-bottom:1px solid #999;
+	margin-bottom:5px;
+}
+.last_list h3{
+	float:left;
+}
+.last_list ul li{
+	height:150px;
+	width:110px;
+	float:left;
+	border:1px solid #CF6;
+	margin-right:5px;
+}
+.caglink img{
+	height:150px;
+	width:110px;
+}
+.caglink{
+	text-align:center;
+}
+.caglink span{
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+}
+.hot{
+	width:200px;
+	height:800px;
+	float:left;
+	display:inline;
+	border:1px solid #0F9;
+}
+/****movie_page****/
+#detail,#down,#plot,#review{
+	width: 775px;
+	float: left;
+	border-bottom:1px solid #0F9;
+	margin-bottom:10px;
+}
+#detail .pic{
+	height: 380px;
+	width: 250px;
+	float: left;
+	text-align: center;
+	border:1px solid #D4D4D4;
+	margin-right:10px;
+}
+.descrip{
+	float:left;
+	width:505px;
+}
+.descrip ul li{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-weight:normal;
+	border-bottom:1px dashed #CCC;
+}
+/*------footer--------*/
+.fcontainer{
+	height:200px;
+	width:100%;
+	border-top:1px solid #CBD0D1;
+	background-color:#FFF;
+}
